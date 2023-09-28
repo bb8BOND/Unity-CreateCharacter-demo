@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 21
+  controlID: 51
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 90
+  controlID: 42
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 91
+  controlID: 43
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -306,28 +306,39 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 567.9413645999999
   notificationClearTime: -1
-  timeSinceLastRotation: 7262.565734899999
+  timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 1
-  activeTab: 1
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 2023-09-28T14:45:17.046+09:00
+      updatedTimeString: 2023-09-28T14:46:17.072+09:00
       cacheType: 8
   branchesView:
     treeLocals:
       IsRemote: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -336,7 +347,27 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: main
+        label: main
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -351,8 +382,19 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Remote branches
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -361,7 +403,17 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -376,16 +428,16 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:50:25.047+09:00
+      cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:46:37.430+09:00
+      cacheType: 1
     currentBranch:
-      name: 
+      name: main
       tracking: 
     currentRemote:
       name: 
@@ -395,7 +447,9 @@ MonoBehaviour:
       host: 
       function: 0
       token: 
-    localBranches: []
+    localBranches:
+    - name: main
+      tracking: 
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
@@ -403,8 +457,8 @@ MonoBehaviour:
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
-    treeScroll: {x: 0, y: 0}
+    currentBranch: main
+    treeScroll: {x: 0, y: 1673}
     treeChanges:
       assets:
         keys: []
@@ -416,12 +470,30 @@ MonoBehaviour:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -444,60 +516,1399 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:46:37.430+09:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:50:25.419+09:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
-    logEntries: []
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries: []
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
+    logEntries:
+    - commitID: 8ee1cadb723ba90d1b19d1061a5313679446086c
       mergeA: 
       mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
+      authorName: bb8BOND
+      authorEmail: 146314990+bb8BOND@users.noreply.github.com
+      commitEmail: 146314990+bb8BOND@users.noreply.github.com
+      commitName: bb8BOND
+      summary: "\u5F8C\u3067\u9811\u5F35\u3063\u3066"
       description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
+      timeString: 2023-09-28T14:50:24.000+09:00
+      commitTimeString: 2023-09-28T14:50:24.000+09:00
+      changes:
+      - path: .vscode\settings.json
+        fullPath: C:\Users\81802\unity\aho\.vscode\settings.json
+        projectPath: .vscode\settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .vsconfig
+        fullPath: C:\Users\81802\unity\aho\.vsconfig
+        projectPath: .vsconfig
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs.meta
+        projectPath: Assets\Chara_Imgs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\0.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\0.png
+        projectPath: Assets\Chara_Imgs\0.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\0.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\0.png.meta
+        projectPath: Assets\Chara_Imgs\0.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\1.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\1.png
+        projectPath: Assets\Chara_Imgs\1.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\1.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\1.png.meta
+        projectPath: Assets\Chara_Imgs\1.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\2.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\2.png
+        projectPath: Assets\Chara_Imgs\2.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\2.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\2.png.meta
+        projectPath: Assets\Chara_Imgs\2.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\3.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\3.png
+        projectPath: Assets\Chara_Imgs\3.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\3.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\3.png.meta
+        projectPath: Assets\Chara_Imgs\3.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\4.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\4.png
+        projectPath: Assets\Chara_Imgs\4.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\4.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\4.png.meta
+        projectPath: Assets\Chara_Imgs\4.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\5.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\5.png
+        projectPath: Assets\Chara_Imgs\5.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\5.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\5.png.meta
+        projectPath: Assets\Chara_Imgs\5.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\6.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\6.png
+        projectPath: Assets\Chara_Imgs\6.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\6.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\6.png.meta
+        projectPath: Assets\Chara_Imgs\6.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\7.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\7.png
+        projectPath: Assets\Chara_Imgs\7.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\7.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\7.png.meta
+        projectPath: Assets\Chara_Imgs\7.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\8.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\8.png
+        projectPath: Assets\Chara_Imgs\8.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\8.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\8.png.meta
+        projectPath: Assets\Chara_Imgs\8.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\9.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\9.png
+        projectPath: Assets\Chara_Imgs\9.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\9.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\9.png.meta
+        projectPath: Assets\Chara_Imgs\9.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0059.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0059.png
+        projectPath: Assets\Chara_Imgs\IMG_0059.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0059.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0059.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0059.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0060.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0060.png
+        projectPath: Assets\Chara_Imgs\IMG_0060.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0060.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0060.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0060.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0140.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0140.png
+        projectPath: Assets\Chara_Imgs\IMG_0140.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0140.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0140.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0140.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0152.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0152.png
+        projectPath: Assets\Chara_Imgs\IMG_0152.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0152.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0152.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0152.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0156.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0156.png
+        projectPath: Assets\Chara_Imgs\IMG_0156.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0156.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0156.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0156.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0159.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0159.png
+        projectPath: Assets\Chara_Imgs\IMG_0159.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0159.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0159.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0159.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0161.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0161.png
+        projectPath: Assets\Chara_Imgs\IMG_0161.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0161.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0161.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0161.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0162.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0162.png
+        projectPath: Assets\Chara_Imgs\IMG_0162.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0162.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0162.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0162.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0163.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0163.png
+        projectPath: Assets\Chara_Imgs\IMG_0163.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0163.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0163.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0163.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0168.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0168.png
+        projectPath: Assets\Chara_Imgs\IMG_0168.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0168.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0168.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0168.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0169.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0169.png
+        projectPath: Assets\Chara_Imgs\IMG_0169.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0169.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0169.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0169.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0170.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0170.png
+        projectPath: Assets\Chara_Imgs\IMG_0170.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0170.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0170.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0170.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0172.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0172.png
+        projectPath: Assets\Chara_Imgs\IMG_0172.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0172.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0172.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0172.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0173.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0173.png
+        projectPath: Assets\Chara_Imgs\IMG_0173.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0173.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0173.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0173.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0174.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0174.png
+        projectPath: Assets\Chara_Imgs\IMG_0174.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0174.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0174.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0174.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0175.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0175.png
+        projectPath: Assets\Chara_Imgs\IMG_0175.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0175.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0175.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0175.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0177.png
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0177.png
+        projectPath: Assets\Chara_Imgs\IMG_0177.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Chara_Imgs\IMG_0177.png.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0177.png.meta
+        projectPath: Assets\Chara_Imgs\IMG_0177.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: C:\Users\81802\unity\aho\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Balance.cs
+        fullPath: C:\Users\81802\unity\aho\Assets\Scripts\Balance.cs
+        projectPath: Assets\Scripts\Balance.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\Balance.cs.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Scripts\Balance.cs.meta
+        projectPath: Assets\Scripts\Balance.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CreateNewGameObject.cs
+        fullPath: C:\Users\81802\unity\aho\Assets\Scripts\CreateNewGameObject.cs
+        projectPath: Assets\Scripts\CreateNewGameObject.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\CreateNewGameObject.cs.meta
+        fullPath: C:\Users\81802\unity\aho\Assets\Scripts\CreateNewGameObject.cs.meta
+        projectPath: Assets\Scripts\CreateNewGameObject.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\81802\unity\aho\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\81802\unity\aho\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\boot.config
+        fullPath: C:\Users\81802\unity\aho\ProjectSettings\boot.config
+        projectPath: ProjectSettings\boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\81802\unity\aho\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\81802\unity\aho\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\81802\unity\aho\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 74a12a06b7722c9071cf00aea8442344afcec7b0
+      mergeA: 
+      mergeB: 
+      authorName: bb8BOND
+      authorEmail: 146314990+bb8BOND@users.noreply.github.com
+      commitEmail: 146314990+bb8BOND@users.noreply.github.com
+      commitName: bb8BOND
+      summary: Initial commit
+      description: 
+      timeString: 2023-09-28T14:46:36.000+09:00
+      commitTimeString: 2023-09-28T14:46:36.000+09:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\81802\unity\aho\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\81802\unity\aho\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\81802\unity\aho\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2023-09-28T14:54:14.396+09:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2023-09-28T14:55:19.252+09:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 8ee1cadb723ba90d1b19d1061a5313679446086c
+        mergeA: 
+        mergeB: 
+        authorName: bb8BOND
+        authorEmail: 146314990+bb8BOND@users.noreply.github.com
+        commitEmail: 146314990+bb8BOND@users.noreply.github.com
+        commitName: bb8BOND
+        summary: "\u5F8C\u3067\u9811\u5F35\u3063\u3066"
+        description: 
+        timeString: 2023-09-28T14:50:24.000+09:00
+        commitTimeString: 2023-09-28T14:50:24.000+09:00
+        changes:
+        - path: .vscode\settings.json
+          fullPath: C:\Users\81802\unity\aho\.vscode\settings.json
+          projectPath: .vscode\settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .vsconfig
+          fullPath: C:\Users\81802\unity\aho\.vsconfig
+          projectPath: .vsconfig
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs.meta
+          projectPath: Assets\Chara_Imgs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\0.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\0.png
+          projectPath: Assets\Chara_Imgs\0.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\0.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\0.png.meta
+          projectPath: Assets\Chara_Imgs\0.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\1.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\1.png
+          projectPath: Assets\Chara_Imgs\1.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\1.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\1.png.meta
+          projectPath: Assets\Chara_Imgs\1.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\2.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\2.png
+          projectPath: Assets\Chara_Imgs\2.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\2.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\2.png.meta
+          projectPath: Assets\Chara_Imgs\2.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\3.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\3.png
+          projectPath: Assets\Chara_Imgs\3.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\3.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\3.png.meta
+          projectPath: Assets\Chara_Imgs\3.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\4.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\4.png
+          projectPath: Assets\Chara_Imgs\4.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\4.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\4.png.meta
+          projectPath: Assets\Chara_Imgs\4.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\5.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\5.png
+          projectPath: Assets\Chara_Imgs\5.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\5.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\5.png.meta
+          projectPath: Assets\Chara_Imgs\5.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\6.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\6.png
+          projectPath: Assets\Chara_Imgs\6.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\6.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\6.png.meta
+          projectPath: Assets\Chara_Imgs\6.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\7.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\7.png
+          projectPath: Assets\Chara_Imgs\7.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\7.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\7.png.meta
+          projectPath: Assets\Chara_Imgs\7.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\8.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\8.png
+          projectPath: Assets\Chara_Imgs\8.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\8.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\8.png.meta
+          projectPath: Assets\Chara_Imgs\8.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\9.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\9.png
+          projectPath: Assets\Chara_Imgs\9.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\9.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\9.png.meta
+          projectPath: Assets\Chara_Imgs\9.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0059.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0059.png
+          projectPath: Assets\Chara_Imgs\IMG_0059.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0059.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0059.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0059.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0060.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0060.png
+          projectPath: Assets\Chara_Imgs\IMG_0060.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0060.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0060.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0060.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0140.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0140.png
+          projectPath: Assets\Chara_Imgs\IMG_0140.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0140.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0140.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0140.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0152.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0152.png
+          projectPath: Assets\Chara_Imgs\IMG_0152.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0152.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0152.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0152.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0156.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0156.png
+          projectPath: Assets\Chara_Imgs\IMG_0156.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0156.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0156.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0156.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0159.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0159.png
+          projectPath: Assets\Chara_Imgs\IMG_0159.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0159.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0159.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0159.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0161.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0161.png
+          projectPath: Assets\Chara_Imgs\IMG_0161.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0161.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0161.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0161.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0162.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0162.png
+          projectPath: Assets\Chara_Imgs\IMG_0162.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0162.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0162.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0162.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0163.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0163.png
+          projectPath: Assets\Chara_Imgs\IMG_0163.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0163.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0163.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0163.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0168.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0168.png
+          projectPath: Assets\Chara_Imgs\IMG_0168.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0168.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0168.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0168.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0169.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0169.png
+          projectPath: Assets\Chara_Imgs\IMG_0169.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0169.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0169.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0169.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0170.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0170.png
+          projectPath: Assets\Chara_Imgs\IMG_0170.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0170.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0170.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0170.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0172.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0172.png
+          projectPath: Assets\Chara_Imgs\IMG_0172.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0172.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0172.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0172.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0173.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0173.png
+          projectPath: Assets\Chara_Imgs\IMG_0173.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0173.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0173.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0173.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0174.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0174.png
+          projectPath: Assets\Chara_Imgs\IMG_0174.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0174.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0174.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0174.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0175.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0175.png
+          projectPath: Assets\Chara_Imgs\IMG_0175.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0175.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0175.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0175.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0177.png
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0177.png
+          projectPath: Assets\Chara_Imgs\IMG_0177.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Chara_Imgs\IMG_0177.png.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Chara_Imgs\IMG_0177.png.meta
+          projectPath: Assets\Chara_Imgs\IMG_0177.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: C:\Users\81802\unity\aho\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Balance.cs
+          fullPath: C:\Users\81802\unity\aho\Assets\Scripts\Balance.cs
+          projectPath: Assets\Scripts\Balance.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\Balance.cs.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Scripts\Balance.cs.meta
+          projectPath: Assets\Scripts\Balance.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CreateNewGameObject.cs
+          fullPath: C:\Users\81802\unity\aho\Assets\Scripts\CreateNewGameObject.cs
+          projectPath: Assets\Scripts\CreateNewGameObject.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\CreateNewGameObject.cs.meta
+          fullPath: C:\Users\81802\unity\aho\Assets\Scripts\CreateNewGameObject.cs.meta
+          projectPath: Assets\Scripts\CreateNewGameObject.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\81802\unity\aho\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\81802\unity\aho\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\boot.config
+          fullPath: C:\Users\81802\unity\aho\ProjectSettings\boot.config
+          projectPath: ProjectSettings\boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\81802\unity\aho\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\81802\unity\aho\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\81802\unity\aho\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 74a12a06b7722c9071cf00aea8442344afcec7b0
+        mergeA: 
+        mergeB: 
+        authorName: bb8BOND
+        authorEmail: 146314990+bb8BOND@users.noreply.github.com
+        commitEmail: 146314990+bb8BOND@users.noreply.github.com
+        commitName: bb8BOND
+        summary: Initial commit
+        description: 
+        timeString: 2023-09-28T14:46:36.000+09:00
+        commitTimeString: 2023-09-28T14:46:36.000+09:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\81802\unity\aho\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\81802\unity\aho\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\81802\unity\aho\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: 1
+    selectedEntry:
+      commitID: 74a12a06b7722c9071cf00aea8442344afcec7b0
+      mergeA: 
+      mergeB: 
+      authorName: bb8BOND
+      authorEmail: 146314990+bb8BOND@users.noreply.github.com
+      commitEmail: 146314990+bb8BOND@users.noreply.github.com
+      commitName: bb8BOND
+      summary: Initial commit
+      description: 
+      timeString: 2023-09-28T14:46:36.000+09:00
+      commitTimeString: 2023-09-28T14:46:36.000+09:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\81802\unity\aho\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\81802\unity\aho\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\81802\unity\aho\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - Assets
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 0
       isUsingGlobalSelection: 0
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .gitattributes
+        label: .gitattributes
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitattributes
+          fullPath: C:\Users\81802\unity\aho\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: .gitignore
+        label: .gitignore
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .gitignore
+          fullPath: C:\Users\81802\unity\aho\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\.gitignore
+        label: .gitignore
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\.gitignore
+          fullPath: C:\Users\81802\unity\aho\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -528,10 +1939,10 @@ MonoBehaviour:
       changingManually: 0
     hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:46:37.430+09:00
+      cacheType: 1
     newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
+    repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
@@ -541,15 +1952,15 @@ MonoBehaviour:
       newGitEmail: 146314990+bb8BOND@users.noreply.github.com
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 2023-09-28T14:45:17.046+09:00
+        updatedTimeString: 2023-09-28T14:46:17.072+09:00
         cacheType: 8
     webTimeout: 100000
     gitTimeout: 5000
   locksView:
-    currentRemoteHasUpdate: 0
+    currentRemoteHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
+    keychainHasUpdate: 1
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -568,16 +1979,16 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 1 0001, 09:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:46:37.430+09:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-28T14:51:33.425+09:00
+      cacheType: 6
     lockedFiles: []
     gitStatusEntries: []
     currentUsername: 
@@ -589,31 +2000,31 @@ MonoBehaviour:
       m_Text: Release Lock (forced)
       m_Image: {fileID: 0}
       m_Tooltip: 
-  hasRemote: 0
-  currentRemoteName: 
-  currentBranch: 
-  currentRemoteUrl: No remote configured
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: main
+  currentRemoteUrl: https://github.com/bb8BOND/Unity-CreateCharacter-demo.git
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 0
-  isTrackingRemoteBranch: 0
+  isTrackingRemoteBranch: 1
   currentBranchContent:
-    m_Text: 
+    m_Text: main
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
-    m_Text: No remote configured
+    m_Text: https://github.com/bb8BOND/Unity-CreateCharacter-demo.git
     m_Image: {fileID: 0}
-    m_Tooltip: Add a remote in the Settings tab
+    m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2023-09-28T14:54:13.561+09:00
+    cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2023-09-28T14:55:19.252+09:00
+    cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2023-09-28T14:51:33.425+09:00
+    cacheType: 6
   pullButtonContent:
     m_Text: Pull
     m_Image: {fileID: 0}
@@ -630,9 +2041,9 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
-  repositoryProgressMessage: 
-  appManagerProgressValue: 0
+  repositoryProgressValue: 0.999838
+  repositoryProgressMessage: Fetched
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &13
@@ -692,7 +2103,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 86580000
     m_LastClickedID: 22662
-    m_ExpandedIDs: 000000009857000000ca9a3b
+    m_ExpandedIDs: 00000000fc590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -720,7 +2131,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000098570000
+    m_ExpandedIDs: 00000000fc590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -850,9 +2261,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 24ddffff
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 38fbffff
+      m_ExpandedIDs: 36fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1186,7 +2597,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.003140783, y: 0.98714423, z: -0.15860589, w: 0.019548953}
     speed: 2
-    m_Value: {x: 0.0031407806, y: 0.9871435, z: -0.15860577, w: 0.019548938}
+    m_Value: {x: 0.003140783, y: 0.9871443, z: -0.15860589, w: 0.019548953}
   m_Size:
     m_Target: 10
     speed: 2
